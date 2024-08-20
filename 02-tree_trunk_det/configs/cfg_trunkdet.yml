@@ -1,0 +1,32 @@
+cloud_path: './Data/off-ground points.pcd'
+save_root_dir: ./Data/res_rans0.15
+
+# params for each step
+## step 1:
+param_slice:
+  slice_num: 30       # the expected number of slices, default=30
+  tree_max_height: 20 # the max height of trees will be detected, default=20.0
+
+## step 2: dbscan for grouping points in each slice
+param_dbscan:
+  eps: 0.1
+  min_pts: 5
+
+## step 3: ransac
+param_ransac:
+  max_iter: 50
+  threshold_dis: 0.15
+
+## step 4: clean circles from RANSAC
+param_clean:
+  need_finding_file: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+## step5: DBSCAN again to get the cluster of tree trunks
+param_dbscan_step5:
+  eps: 0.3
+  min_pts: 2
+
+## step 6: get ultimate trunks by expanding the 3D bbox of preliminary trunks
+#param_get_fintrunk:
+
+
