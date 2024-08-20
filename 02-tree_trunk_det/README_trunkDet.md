@@ -59,7 +59,7 @@ By using the man-made parameters:
 
 The wrongly detected circles are removed. 
 
-:warning: ***Note:*** *only slices from 3 to 10 are considered in default.*
+:warning: ***Note:*** *only slices from 0 to 10 are considered in default.*
 ```shell
 $ python -m p4_clean_circles --ransac_dir ./Data/results/numSlice30_zMax20_rans
 ```
