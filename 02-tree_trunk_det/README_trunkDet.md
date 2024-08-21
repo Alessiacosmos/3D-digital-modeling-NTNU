@@ -55,7 +55,7 @@ These noise circles have a large circle radius because they are close to a line.
 
 By using the man-made parameters:
 1. radius threshold $T_r=2$
-2. point number threshold $T_{pn}=500$ (50 for 3-5 slices)
+2. point number threshold $T_{pn}=500$ (50 for <=5 slices)
 
 The wrongly detected circles are removed. 
 
