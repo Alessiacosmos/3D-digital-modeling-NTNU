@@ -26,7 +26,7 @@ slice the data based on the elevation (z) values to help us find tree trunks.
 
 Default `slice_num = 30` with `max_zvalue = 20`
 ```shell
-$ cd 02-tree_trunk_det
+$ cd 02-tree_trunk_det # enter the directory '02-tree_trunk_det'
 $ python -m p1_slice_data --cloud_path './Data/off-ground points.pcd' --save_dir ./Data/slice
 ```
 
@@ -94,9 +94,9 @@ The final result can show us the location, shape and range of every tree trunk.
 The script running the wholeworkflow including all 6 sub-steps is also provided.  
 All parameters of each sub-step can be set in the config file.
 
-Following the default parameter setting, an example of config file and its corresponding cmd is as follows.
+Following the default parameter setting, an example of config file and its corresponding cmd are as follows.
 ```shell
-$ python38 -m main_wholeworkflow --config_path ./configs/cfg_trunkdet.ymls
+$ python -m main_wholeworkflow --config_path ./configs/cfg_trunkdet.ymls
 ```
 
 
