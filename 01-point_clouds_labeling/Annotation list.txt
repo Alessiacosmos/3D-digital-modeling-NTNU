@@ -1,0 +1,15 @@
+# Annotation list
+
+########
+# The classes need to be labeled for TBA-4256
+# scalar field name: class
+########
+0 Chimney
+1 Low vegetation
+2 Impervious surfaces
+3 Car
+4 Fence/Hedge
+5 Building
+6 Water
+7 Farm/Soil
+8 Tree
