@@ -9,14 +9,12 @@ Label point clouds by CloudCompare for data preparation for 3D segmentation task
 ### 2.1 Data preparation
 1. Find the tile you need to label through the file [data arrangement.xlsx](./data%20arrangement.xlsx)
 2. Get the corresponding point cloud data for this tile through the following way:
-   - Visit Green room & Find device NTNU0...
+   - Visit [Green room](https://link.mazemap.com/Pah28i1x) & Find device NTNU0...
    - Find the data at the path `folder/path/data`
    - Copy it to your own devices.  
 3. Get the metadata for the point clouds (to idenfity where your tile is):
    - You can find it by the same way of step 2.
    - The path for the metadata is: `folder/path/metadata`
-
-<iframe width="400" height="320" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"src="https://use.mazemap.com/embed.html#v=1&campusid=1&zlevel=1&center=10.406302,63.414959&zoom=19.4&sharepoitype=poi&sharepoi=36398&utm_medium=iframe" style={{ border: '1px solid grey' }} allow="geolocation"></iframe><br/><small><a href="https://www.mazemap.com/">Map by MazeMap</a></small>
 
 ### 2.2 Labeling
 The labeling workflow is provided by video tutorials as following links:
