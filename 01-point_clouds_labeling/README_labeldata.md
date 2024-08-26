@@ -9,12 +9,13 @@ Label point clouds by CloudCompare for data preparation for 3D segmentation task
 ### 2.1 Data preparation
 1. Find the tile you need to label through the file [data arrangement.xlsx](./data%20arrangement.xlsx)
 2. Get the corresponding point cloud data for this tile through the following way:
-   - Visit [Green room](https://link.mazemap.com/Pah28i1x) & Find device NTNU0...
-   - Find the data at the path `folder/path/data`
+   - Visit [Green room](https://link.mazemap.com/Pah28i1x) neighbored the classroom L11;
+   - Find device NTNU00743 & Login to your NTNUaccount;
+   - Find the data at the path *F:\3DDigitalModelling2024\A01_datas\data* ; 
    - Copy it to your own devices.  
 3. Get the metadata for the point clouds (to idenfity where your tile is):
-   - You can find it by the same way of step 2.
-   - The path for the metadata is: `folder/path/metadata`
+   - You can find it by the same way of step 2;
+   - The path for the metadata is: *F:\3DDigitalModelling2024\A01_datas\metadata* . 
 
 ### 2.2 Labeling
 The labeling workflow is provided by video tutorials as following links:
