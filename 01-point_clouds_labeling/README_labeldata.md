@@ -7,7 +7,8 @@ Label point clouds by CloudCompare for data preparation for 3D segmentation task
 
 ## 2. Workflow
 ### 2.1 Data preparation
-1. Find the tile you need to label through the file [data arrangement.xlsx](./data%20arrangement.xlsx)
+1. Find the tile you need to label through the file [data arrangement.xlsx](https://studntnu-my.sharepoint.com/:x:/g/personal/gefeik_ntnu_no/EUogwVPFy1xEm4JadvBxQRABZ8ntcYeu-DoARDvZsycjQA?e=YzK0az)  
+   **To protect your person private, the `data_arrangement.xlsx` file is shared through NTNU onedrive and only people in NTNU have access to this file. For the students who can't download this file, get the share from your classmates or send email to Gefei.*
 2. Get the corresponding point cloud data for this tile through the following way:
    - Visit [Green room](https://link.mazemap.com/Pah28i1x) neighbored the classroom L11;
    - Find device NTNU00743 & Login to your NTNUaccount;
