@@ -36,5 +36,14 @@ If you miss the download time, just let Gefei know and she will update them.)
 3. The way to find metadata that shows tile locations can be found through [2.1 Data preparation](#21-data-preparation)
 
 ### 2.3 Submit your result
-Coming soon...
+1. Submit reports in Blackboard
+2. Submit your labelling result to Green room's desktop NTNU00743 (where you get your data).
+   1. Submission folder: *F:\3DDigitalModelling2024\A01_datas\label_results*
+   2. Detialed filenmae: the original tilename. e.g. 32-1-510-212-67
+   
+   E.g. your result should be saved as: F:\3DDigitalModelling2024\A01_datas\label_results\32-1-510-212-67.las(.laz)
 
+#### What should be in your report?
+1. The description of the data you’re on duty
+2. The description of the workflow labeling data.
+3. Qualitative evaluation results: compare orthophoto and your label result, and show several examples.
