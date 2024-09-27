@@ -36,7 +36,7 @@ If you miss the download time, just let Gefei know and she will update them.)
 3. The way to find metadata that shows tile locations can be found through [2.1 Data preparation](#21-data-preparation)
 
 ### 2.3 Submit your result
-1. Submit reports in Blackboard
+1. Submit reports in Blackboard/Inspera (will open later, updated on 27th, Sep. 2024).
 2. Submit your labelling result to Green room's desktop NTNU00743 (where you get your data).
    1. Submission folder: *F:\3DDigitalModelling2024\A01_datas\label_results*
    2. Detailed filename: the original tilename. e.g. 32-1-510-212-67
