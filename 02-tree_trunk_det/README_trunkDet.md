@@ -117,13 +117,31 @@ with the left image displaying the bottom view and the right displaying the side
 
 ## Requirement
 The following core libraries are required. You can install them by `pip`.
-- Numpy
+- Numpy 
 - Pandas
 - tqdm
 - open3d
 - pyntcloud
 - scikit-learn
 - pyyaml
+
+The used version of the required libraries in test environment is also provided as below.
+- numpy==1.21.2
+- open3d==0.14.1
+- pandas==1.3.3
+- pyntcloud==0.3.1
+- PyYAML==6.0.2
+- scikit_learn==1.0.2
+- tqdm==4.62.3
+
+
+## FAQs
+
+**Q1:** *AttributeError: 'DataFrame' object has no attribute 'append'*
+
+**A1:** The codes are test on `pandas=1.3.3`, where the 'append' attribute is still supported. 
+In newer pandas version, the `append` has been removed.  
+You can replace it with `concat` method. 
 
 
 ## License
