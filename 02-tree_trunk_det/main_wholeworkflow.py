@@ -48,20 +48,20 @@ def main(args):
     cfg = configs.load_config(args.config_path)
     print(f"{cfg.save_root_dir = }")
 
-    #########
-    # get_args_each_step
-    #########
+    # #########
+    # # get_args_each_step
+    # #########
     args_perstep = get_args_each_step(cfg)
     print(F"{args_perstep = }")
 
     #########
     # get tree trunks by running workflow step-by-step
     #########
-    # # step 1: slice data by z values
-    # main_slice(args_perstep['1'])
-    #
-    # # step 2: DBSCAN to group points
-    # main_dbscan(args_perstep['2'])
+    # step 1: slice data by z values
+    main_slice(args_perstep['1'])
+
+    # step 2: DBSCAN to group points
+    main_dbscan(args_perstep['2'])
 
     # step 3: RANSAC to get circles in each slice
     main_ransac(args_perstep['3'])
