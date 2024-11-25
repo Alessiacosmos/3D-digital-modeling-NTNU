@@ -143,6 +143,14 @@ The used version of the required libraries in test environment is also provided 
 In newer pandas version, the `append` has been removed.  
 You can replace it with `concat` method. 
 
+**Q2:** *The final detection results seem not right as shown in the example figure*
+
+**A1:** When loading the `*newclass_finclass_.csv` file in CloudCompare,
+(1) skip the first row (as it's the header saving the column names).
+(2) except the top three columns (x,y,z) set all columns as `Scaler Field`, where the *final classification result* is the last column.
+(3) active the `finclass` scaler field at the  *properties* GUI element in CloudCompare.  
+Then you will see the final classification result.
+
 
 ## License
 [MIT License](../LICENSE)
